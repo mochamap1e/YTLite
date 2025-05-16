@@ -1,0 +1,61 @@
+{
+    "name": "YTLite",
+    "iconURL": "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/icon.png",
+    "website": "https://github.com/mochamap1e/YTLite/",
+    "tintColor": "#5e4c87",
+    "featuredApps": [
+        "com.google.ios.youtube"
+    ],
+    "apps": [
+        {
+            "name": "YTLite",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "dayanch96",
+            "localizedDescription": "A flexible enhancer for YouTube on iOS with many features.",
+            "iconURL": "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/icon.png",
+            "tintColor": "#5e4c87",
+            "category": "entertainment",
+            "screenshots": [
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr1.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr2.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr3.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr4.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr5.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr6.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr7.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr8.jpg",
+                "https://raw.githubusercontent.com/mochamap1e/YTLite/refs/heads/main/Resources/scr9.jpg"
+            ],
+            "versions": [
+                {
+                    "version": "20.19.3",
+                    "buildVersion": "20.19.3",
+                    "date": "2025-05-16",
+                    "downloadURL": "https://github.com/mochamap1e/YTLite/releases/download/v5.2b1/YouTubePlus_5.2b1.ipa",
+                    "size": 115042
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.siri",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "com.apple.developer.networking.multicast",
+                    "com.apple.developer.networking.networkextension"
+                ],
+                "privacy": {
+                    "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+                    "NSCameraUsageDescription": "This lets you create videos using the app.",
+                    "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+                    "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+                    "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+                    "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+                    "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+                    "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+                }
+            }
+        }
+    ],
+    "news": []
+}
